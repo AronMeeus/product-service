@@ -1,4 +1,4 @@
-package com.example.Product;
+package team07.Product;
 
 public class Product {
 
