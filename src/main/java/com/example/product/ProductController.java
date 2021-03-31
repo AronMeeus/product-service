@@ -23,27 +23,48 @@ public class ProductController {
         return Arrays.asList(
                 new Product(
                         "1",
-                        "macbook Retina 13.3' ME662 (2013)",
-                        "3.0GHz Dual-core Haswell Intel Core i5 Turbo Boost up to 3.2 GHz, 3MB L3 cache 8GB (two 4GB SO-DIMMs) of 1600MHz DDR3 SDRAM",
-                        "https://www.dropbox.com/s/swg9bdr0ejcbtrl/img9.jpg?raw=1",
-                        10,
-                        2399
+                        "Cooking 1",
+                        "beginner class",
+                       "https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/news/markets/survey-cooking-at-home-will-become-the-new-normal-post-pandemic/10914660-1-eng-GB/Survey-Cooking-at-home-will-become-the-new-normal-post-pandemic_wrbm_large.jpg",
+                        1,
+                        20
                 ),
                 new Product(
                         "2",
-                        "Macbook Pro 13.3' Retina MF841LL/A",
-                        "Macbook Pro 13.3' Retina MF841LL/A Model 2015 Option Ram Care 12/2016",
-                        "https://www.dropbox.com/s/6tqcep7rk29l59e/img2.jpeg?raw=1",
-                        15,
-                        1199
+                        "Cooking 2",
+                        "intermediate class",
+                        "https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/news/markets/survey-cooking-at-home-will-become-the-new-normal-post-pandemic/10914660-1-eng-GB/Survey-Cooking-at-home-will-become-the-new-normal-post-pandemic_wrbm_large.jpg",
+                        1,
+                        50
                 ),
                 new Product(
                         "3",
-                        "Macbook Pro 15.4' Retina MC975LL/A Model 2012",
-                        "3.0GHz Dual-core Haswell Intel Core i5 Turbo Boost up to 3.2 GHz, 3MB L3 cache 8GB (two 4GB SO-DIMMs) of 1600MHz DDR3 SDRAM",
-                        "https://www.dropbox.com/s/78fot6w894stu3n/img3.jpg?raw=1",
+                        "Cooking 3",
+                        "advanced class",
+                        "https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator-usa.com/news/markets/survey-cooking-at-home-will-become-the-new-normal-post-pandemic/10914660-1-eng-GB/Survey-Cooking-at-home-will-become-the-new-normal-post-pandemic_wrbm_large.jpg",
                         1,
-                        1800
+                        100
+                ),new Product(
+                        "4",
+                        "Construction 1",
+                        "beginner class",
+                        "https://turanizmir.com/en/wp-content/uploads/2021/03/https___specials-images.forbesimg.com_imageserve_1171642478_0x0.jpg",
+                        1,
+                        70
+                ),new Product(
+                        "5",
+                        "Electricity 1",
+                        "beginner class",
+                        "https://alis.alberta.ca/media/697347/electrician-istock-487018428.jpg",
+                        1,
+                        60
+                ),new Product(
+                        "6",
+                        "Nursing 1",
+                        "beginner class",
+                        "https://www.purdueglobal.edu/blog/nursing/purgshouldyoubecomeanurse-image.jpg",
+                        1,
+                        80
                 )
         );
     }
