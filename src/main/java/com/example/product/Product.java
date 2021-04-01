@@ -1,12 +1,32 @@
 package com.example.product;
 
-public class Product {
+import com.sun.istack.NotNull;
 
+import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Positive;
+
+@Entity
+@Table(name = "products")
+public class Product {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
+
+    @NotBlank
+    @Column(unique = true)
     private String title;
+
+    @NotBlank
     private String description;
+
+    @NotBlank
     private String thumbnail_url;
+
+    @Positive
     private int quantity;
+
+    @Positive
     private float price;
 
     public Product() {

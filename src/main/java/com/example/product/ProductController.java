@@ -1,5 +1,6 @@
 package com.example.product;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.oauth2.jwt.Jwt;
 
 import java.util.Arrays;
@@ -18,10 +19,12 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "http://shopping-cart-git-ucllteam07.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud", allowCredentials = "true")
 @RestController
 public class ProductController {
+    @Autowired
+    private ProductService productService;
 
     @GetMapping("/products")
     public List<Product> getAllProducts() {
-        return Arrays.asList(
+        /*return Arrays.asList(
                 new Product(
                         "1",
                         "Cooking 1",
@@ -67,7 +70,7 @@ public class ProductController {
                         1,
                         80
                 )
-        );
+        );*/ return productService.getAllProducts();
     }
 
     @GetMapping("/check")
